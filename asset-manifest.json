@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/reactible/static/css/main.9af699e6.chunk.css",
+    "main.js": "/reactible/static/js/main.625170c7.chunk.js",
+    "main.js.map": "/reactible/static/js/main.625170c7.chunk.js.map",
+    "runtime-main.js": "/reactible/static/js/runtime-main.e6bf17ba.js",
+    "runtime-main.js.map": "/reactible/static/js/runtime-main.e6bf17ba.js.map",
+    "static/css/2.d9ad5f5c.chunk.css": "/reactible/static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.4b4f27a9.chunk.js": "/reactible/static/js/2.4b4f27a9.chunk.js",
+    "static/js/2.4b4f27a9.chunk.js.map": "/reactible/static/js/2.4b4f27a9.chunk.js.map",
+    "index.html": "/reactible/index.html",
+    "precache-manifest.bd3147400fc1399bb769f12fb3a79ab1.js": "/reactible/precache-manifest.bd3147400fc1399bb769f12fb3a79ab1.js",
+    "service-worker.js": "/reactible/service-worker.js",
+    "static/css/2.d9ad5f5c.chunk.css.map": "/reactible/static/css/2.d9ad5f5c.chunk.css.map",
+    "static/css/main.9af699e6.chunk.css.map": "/reactible/static/css/main.9af699e6.chunk.css.map",
+    "static/js/2.4b4f27a9.chunk.js.LICENSE.txt": "/reactible/static/js/2.4b4f27a9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e6bf17ba.js",
+    "static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.4b4f27a9.chunk.js",
+    "static/css/main.9af699e6.chunk.css",
+    "static/js/main.625170c7.chunk.js"
+  ]
+}
