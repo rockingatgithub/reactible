@@ -7,8 +7,8 @@ class MidBar extends Component {
       <div id="midbar">
         <Container fluid>
           <Row noGutters>
-            <Col>
-              <h3>You aren’t following anyone yet</h3>
+            <Col id="midbarcol">
+              <h3>Your following suggestions will appear here</h3>
               <div>Find friends you already know from Twitter.</div>
             </Col>
           </Row>

@@ -7,6 +7,7 @@ class List extends Component {
     const { list } = this.props;
     return (
       <div id="imagelist">
+        <h6 style={{ fontWeight: 600 }}>Checkout some popular shots</h6>
         <Container fluid>
           <Row noGutters>
             {list.map((image) => (

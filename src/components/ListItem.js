@@ -4,11 +4,23 @@ function ListItem(props) {
   const { image } = props;
   return (
     <Col lg={3} className="imagebox">
-      <img
-        src={image.previewURL}
-        style={{ height: "240px", width: "200px" }}
-        className="imageitem"
-      />
+      <div id="imagecard">
+        <img
+          src={image.previewURL}
+          style={{ height: "240px", width: "200px" }}
+          className="imageitem"
+          alt="images"
+        />
+        <span className="imageuser">{image.user}</span>
+        <br />
+        <span className="imagefav">
+          <img
+            src="https://www.flaticon.com/svg/static/icons/svg/833/833472.svg"
+            style={{ height: "20px", width: "20px" }}
+          />{" "}
+          {image.likes}
+        </span>
+      </div>
     </Col>
   );
 }

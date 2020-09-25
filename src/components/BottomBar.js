@@ -9,30 +9,30 @@ class BottomBar extends Component {
           <Row noGutters>
             <Col lg={3}>
               <h3>Reactible</h3>
-              <p>
+              <p id="lastsectionpara">
                 Dribbble is the world’s leading community for creatives to
                 share, grow, and get hired.
               </p>
             </Col>
             <Col lg={3}>
               <h5>For designers</h5>
-              <span> Go Pro!</span>
-              <span> Explore design work </span>
-              <span>Design blog </span>
-              <span>Overtime podcast </span> <span>Code of conduct</span>
+              <div> Go Pro!</div>
+              <div> Explore design work </div>
+              <div>Design blog </div>
+              <div>Overtime podcast </div> <div>Code of conduct</div>
             </Col>
             <Col lg={3}>
               <h5>For designers</h5>
-              <span> Go Pro!</span>
-              <span> Explore design work </span>
-              <span>Design blog </span>
-              <span>Overtime podcast </span> <span>Code of conduct</span>
+              <div> Go Pro!</div>
+              <div> Explore design work </div>
+              <div>Design blog </div>
+              <div>Overtime podcast </div> <div>Code of conduct</div>
             </Col>
             <Col lg={3}>
-              <span>
+              <div id="lastsectionpara1">
                 Flawless design is easy with millions of ready-made assets to
                 choose from Advertise on Dribbble
-              </span>
+              </div>
             </Col>
           </Row>
         </Container>

@@ -8,8 +8,9 @@ body {
 
 #midbar {
   margin-top: 32px;
-  height: 220px;
+  height: 140px;
   text-align: center;
+  padding-top: 38px;
 }
 
 .imagebox {
@@ -24,7 +25,7 @@ body {
 }
 
 #bottombar {
-  margin-top: 50px;
+  margin-top: 86px;
   padding-top: 40px;
   padding-bottom: 30px;
   background-color: #fafafb;
@@ -37,4 +38,38 @@ body {
 .topbarone {
   padding-right: 0px !important;
   padding-left: 0px !important;
+}
+
+#midbarcol {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#lastsectionpara {
+  width: 250px;
+}
+
+#lastsectionpara1 {
+  font-weight: 600;
+}
+
+#lastsection {
+  background-color: #fafafb;
+  padding-top: 16px;
+}
+
+.imageuser {
+  position: absolute;
+  top: 240px;
+  left: 74px;
+  color: gray;
+}
+
+.imagefav {
+  position: absolute;
+  top: 260px;
+  left: 74px;
+  color: gray;
 }

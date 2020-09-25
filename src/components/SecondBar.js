@@ -9,8 +9,8 @@ class SecondBar extends Component {
           <Row noGutters>
             <Col lg={2}>
               <Dropdown>
-                <Dropdown.Toggle variant="success" id="dropdown-basic">
-                  Dropdown Button
+                <Dropdown.Toggle variant="info" id="dropdown-basic">
+                  Following
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu>
@@ -25,13 +25,13 @@ class SecondBar extends Component {
               </Dropdown>
             </Col>
             <Col lg={8}>
-              <Button variant="link">Link</Button>
-              <Button variant="link">Link</Button>
-              <Button variant="link">Link</Button>
-              <Button variant="link">Link</Button>
+              <Button variant="light">All</Button>
+              <Button variant="link">Animation</Button>
+              <Button variant="link">Branding</Button>
+              <Button variant="link">Illustration</Button>
             </Col>
             <Col lg={2}>
-              <Button variant="outline-secondary">Light</Button>
+              <Button variant="outline-secondary">Filter</Button>
             </Col>
           </Row>
         </Container>
