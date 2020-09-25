@@ -1,3 +1,5 @@
+// =========================================main app component===========================================
+
 import React, { Component } from "react";
 import TopBar from "./TopBar";
 import SecondBar from "./SecondBar";
@@ -13,6 +15,8 @@ class App extends Component {
       list: [],
     };
   }
+
+  // ==============================fetch all images======================================================
 
   componentDidMount = async () => {
     let self = this;
