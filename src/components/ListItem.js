@@ -19,6 +19,7 @@ function ListItem(props) {
           <img
             src="https://www.flaticon.com/svg/static/icons/svg/833/833472.svg"
             style={{ height: "20px", width: "20px" }}
+            alt="Likes"
           />{" "}
           {image.likes}
         </span>
