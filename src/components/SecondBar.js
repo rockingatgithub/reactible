@@ -1,7 +1,5 @@
 // ===================================second heading components====================================================
 
-
-
 import React, { Component } from "react";
 import { Container, Row, Col, Dropdown, Button } from "react-bootstrap";
 
@@ -11,7 +9,7 @@ class SecondBar extends Component {
       <div id="secondbar">
         <Container fluid>
           <Row noGutters>
-            <Col lg={2}>
+            <Col lg={2} md={1} sm={0}>
               <Dropdown>
                 <Dropdown.Toggle variant="info" id="dropdown-basic">
                   Following
@@ -28,13 +26,13 @@ class SecondBar extends Component {
                 </Dropdown.Menu>
               </Dropdown>
             </Col>
-            <Col lg={8}>
+            <Col lg={8} md={10} sm={12}>
               <Button variant="light">All</Button>
               <Button variant="link">Animation</Button>
               <Button variant="link">Branding</Button>
               <Button variant="link">Illustration</Button>
             </Col>
-            <Col lg={2}>
+            <Col lg={2} md={1} sm={0}>
               <Button variant="outline-secondary">Filter</Button>
             </Col>
           </Row>

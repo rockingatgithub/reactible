@@ -5,7 +5,7 @@ import { Col } from "react-bootstrap";
 function ListItem(props) {
   const { image } = props;
   return (
-    <Col lg={3} className="imagebox">
+    <Col lg={3} md={4} sm={6} xs={12} className="imagebox">
       <div id="imagecard">
         <img
           src={image.previewURL}
