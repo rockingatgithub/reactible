@@ -1,3 +1,5 @@
+/* ==============================styles for the body================================================================= */
+
 body {
   margin: 0;
 }
@@ -14,6 +16,8 @@ body {
   background-image: url("https://www.jesusislife.in/wp-content/uploads/2019/05/Savin-NY-Website-Background-Web.jpg");
   background-size: contain;
 }
+
+/* ===========================styles applied to images and likes======================================================== */
 
 .imagebox {
   margin-top: 70px;
@@ -50,6 +54,8 @@ body {
   align-items: center;
 }
 
+/* =======================================styles applied to last sections=============================================== */
+
 #lastsectionpara {
   width: 250px;
 }
@@ -65,9 +71,13 @@ body {
 
 .imageuser {
   position: absolute;
-  top: 240px;
+  top: 244px;
   left: 54px;
   color: gray;
+  display: inline-block;
+  width: 92px;
+  overflow: hidden;
+  font-size: 14px;
 }
 
 .imagefav {
@@ -88,7 +98,7 @@ body {
 .imagecomments {
   position: absolute;
   top: 245px;
-  left: 224px;
+  left: 235px;
   color: gray;
   font-size: 12px;
   font-weight: 700;
@@ -97,6 +107,8 @@ body {
 .bottombarbox {
   padding-top: 14px;
 }
+
+/* ==================================download button======================================================= */
 
 .downloadimage {
   height: 30px;
