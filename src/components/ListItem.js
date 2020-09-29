@@ -8,7 +8,7 @@ function ListItem(props) {
     <Col lg={3} md={4} sm={6} xs={12} className="imagebox">
       <a href={image.webformatURL} download="myimage.jpg">
         <img
-          src="https://www.flaticon.com/svg/static/icons/svg/3516/3516098.svg"
+          src="https://www.flaticon.com/svg/static/icons/svg/880/880598.svg"
           className="downloadimage"
         />
       </a>

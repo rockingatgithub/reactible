@@ -21,7 +21,9 @@ class TopBar extends Component {
           <Row noGutters>
             <Col>
               <Navbar bg="light" expand="lg">
-                <Navbar.Brand href="#home">Reactible</Navbar.Brand>
+                <Navbar.Brand href="#home" id="appheadingtext">
+                  Reactible
+                </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                   <Nav className="mr-auto">

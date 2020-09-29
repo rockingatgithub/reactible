@@ -17,6 +17,11 @@ body {
   background-size: contain;
 }
 
+#appheadingtext {
+  font-family: "Great Vibes", cursive;
+  font-size: 28px;
+}
+
 /* ===========================styles applied to images and likes======================================================== */
 
 .imagebox {
@@ -106,6 +111,12 @@ body {
 
 .bottombarbox {
   padding-top: 14px;
+  
+}
+
+#bottombarboxhead{
+  font-family: "Great Vibes", cursive;
+  font-size: 28px;
 }
 
 /* ==================================download button======================================================= */
