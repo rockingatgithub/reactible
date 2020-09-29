@@ -8,7 +8,7 @@ body {
 
 #midbar {
   margin-top: 32px;
-  height: 140px;
+  height: 215px;
   text-align: center;
   padding-top: 38px;
   background-image: url("https://www.jesusislife.in/wp-content/uploads/2019/05/Savin-NY-Website-Background-Web.jpg");
@@ -72,9 +72,11 @@ body {
 
 .imagefav {
   position: absolute;
-  top: 260px;
-  left: 54px;
+  top: 245px;
+  left: 178px;
   color: gray;
+  font-size: 12px;
+  font-weight: 700;
 }
 
 .imageitem:hover {
@@ -85,9 +87,11 @@ body {
 
 .imagecomments {
   position: absolute;
-  top: 240px;
+  top: 245px;
   left: 224px;
   color: gray;
+  font-size: 12px;
+  font-weight: 700;
 }
 
 .bottombarbox {
@@ -95,8 +99,8 @@ body {
 }
 
 .downloadimage {
-  height: 35px;
-  width: 35px;
+  height: 30px;
+  width: 30px;
   position: absolute;
   left: 245px;
   z-index: 20;
