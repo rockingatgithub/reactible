@@ -19,6 +19,17 @@ function ListItem(props) {
           className="imageitem"
           alt="images"
         />
+        <img
+          src="https://www.flaticon.com/svg/static/icons/svg/847/847969.svg"
+          style={{
+            height: "20px",
+            width: "20px",
+            marginRight: "5px",
+            position: "absolute",
+            top: "243px",
+            left: "50px",
+          }}
+        />
         <span className="imageuser">{image.user}</span>
         <br />
         <span className="imagefav">
