@@ -59,6 +59,15 @@ body {
   align-items: center;
 }
 
+.usericon {
+  height: "20px";
+  width: 20px;
+  margin-right: 5px;
+  position: absolute;
+  top: 243px;
+  left: 50px;
+}
+
 /* =======================================styles applied to last sections=============================================== */
 
 #lastsectionpara {
