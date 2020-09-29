@@ -111,10 +111,9 @@ body {
 
 .bottombarbox {
   padding-top: 14px;
-  
 }
 
-#bottombarboxhead{
+#bottombarboxhead {
   font-family: "Great Vibes", cursive;
   font-size: 28px;
 }
@@ -122,9 +121,10 @@ body {
 /* ==================================download button======================================================= */
 
 .downloadimage {
-  height: 30px;
-  width: 30px;
+  height: 26px;
+  width: 26px;
   position: absolute;
   left: 245px;
+  top: 6px;
   z-index: 20;
 }
