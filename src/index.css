@@ -12,6 +12,7 @@ body {
   text-align: center;
   padding-top: 38px;
   background-image: url("https://www.jesusislife.in/wp-content/uploads/2019/05/Savin-NY-Website-Background-Web.jpg");
+  background-size: contain;
 }
 
 .imagebox {
@@ -78,7 +79,7 @@ body {
 
 .imageitem:hover {
   z-index: 10;
-  box-shadow: 2px 4px 12px 2px #888;
+  box-shadow: 2px 4px 18px 9px slategray;
   position: relative;
 }
 
