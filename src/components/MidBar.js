@@ -6,7 +6,10 @@ import { Container, Row, Col } from "react-bootstrap";
 class MidBar extends Component {
   render() {
     return (
-      <div id="midbar">
+      <div
+        id="midbar"
+        
+      >
         <Container fluid>
           <Row noGutters>
             <Col id="midbarcol">
