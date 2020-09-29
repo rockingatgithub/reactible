@@ -21,7 +21,7 @@ class App extends Component {
   componentDidMount = async () => {
     let self = this;
     await fetch(
-      "https://pixabay.com/api/?key=18458822-78566bd7f972974a0cbe5750d&per_page=30&image_type=photo"
+      "https://pixabay.com/api/?key=18458822-78566bd7f972974a0cbe5750d&per_page=32&image_type=photo"
     )
       .then((res) => res.json())
       .then((res) => {
