@@ -93,3 +93,11 @@ body {
 .bottombarbox {
   padding-top: 14px;
 }
+
+.downloadimage {
+  height: 35px;
+  width: 35px;
+  position: absolute;
+  left: 245px;
+  z-index: 20;
+}

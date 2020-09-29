@@ -9,13 +9,7 @@ function ListItem(props) {
       <a href={image.previewURL} download="myimage.jpg">
         <img
           src="https://www.flaticon.com/svg/static/icons/svg/3516/3516098.svg"
-          style={{
-            height: "40px",
-            width: "40px",
-            position: "absolute",
-            left: "245px",
-            zIndex: 20,
-          }}
+          className="downloadimage"
         />
       </a>
       <div id="imagecard">
