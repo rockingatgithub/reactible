@@ -10,28 +10,30 @@ class BottomBar extends Component {
         <Container fluid>
           <Row noGutters>
             <Col lg={3}>
-              <h3>Reactible</h3>
-              <p id="lastsectionpara">
+              <h3 className="bottombarbox">Reactible</h3>
+              <p id="lastsectionpara" className="bottombarbox">
                 Dribbble is the world’s leading community for creatives to
                 share, grow, and get hired.
               </p>
             </Col>
             <Col lg={3}>
-              <h5>For designers</h5>
-              <div> Go Pro!</div>
-              <div> Explore design work </div>
-              <div>Design blog </div>
-              <div>Overtime podcast </div> <div>Code of conduct</div>
+              <h5 className="bottombarbox">For designers</h5>
+              <div className="bottombarbox"> Go Pro!</div>
+              <div className="bottombarbox"> Explore design work </div>
+              <div className="bottombarbox">Design blog </div>
+              <div className="bottombarbox">Overtime podcast </div>{" "}
+              <div className="bottombarbox">Code of conduct</div>
             </Col>
             <Col lg={3}>
-              <h5>For designers</h5>
-              <div> Go Pro!</div>
-              <div> Explore design work </div>
-              <div>Design blog </div>
-              <div>Overtime podcast </div> <div>Code of conduct</div>
+              <h5 className="bottombarbox">For designers</h5>
+              <div className="bottombarbox"> Go Pro!</div>
+              <div className="bottombarbox"> Explore design work </div>
+              <div className="bottombarbox">Design blog </div>
+              <div className="bottombarbox">Overtime podcast </div>{" "}
+              <div className="bottombarbox">Code of conduct</div>
             </Col>
             <Col lg={3}>
-              <div id="lastsectionpara1">
+              <div id="lastsectionpara1" className="bottombarbox">
                 Flawless design is easy with millions of ready-made assets to
                 choose from Advertise on Dribbble
               </div>

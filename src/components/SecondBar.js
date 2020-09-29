@@ -31,6 +31,11 @@ class SecondBar extends Component {
               <Button variant="link">Animation</Button>
               <Button variant="link">Branding</Button>
               <Button variant="link">Illustration</Button>
+              <Button variant="link">Mobile</Button>
+              <Button variant="link">Print</Button>
+              <Button variant="link">Product Design</Button>
+              <Button variant="link">Typography</Button>
+              <Button variant="link">Web Design</Button>
             </Col>
             <Col lg={2} md={1} sm={0}>
               <Button variant="outline-secondary">Filter</Button>

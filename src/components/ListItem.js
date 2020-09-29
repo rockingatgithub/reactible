@@ -9,7 +9,7 @@ function ListItem(props) {
       <div id="imagecard">
         <img
           src={image.previewURL}
-          style={{ height: "240px", width: "200px" }}
+          style={{ height: "240px", width: "244px" }}
           className="imageitem"
           alt="images"
         />
@@ -22,6 +22,14 @@ function ListItem(props) {
             alt="Likes"
           />{" "}
           {image.likes}
+        </span>
+        <span className="imagecomments">
+          <img
+            src="https://www.flaticon.com/svg/static/icons/svg/937/937819.svg"
+            style={{ height: "20px", width: "20px" }}
+            alt="Likes"
+          />{" "}
+          {image.comments}
         </span>
       </div>
     </Col>
